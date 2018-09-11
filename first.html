@@ -1,0 +1,43 @@
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css"
+          href="futurestyle.css">
+        <script src="p5.min.js"></script>
+          </head>
+    <body>
+        
+        <svg version="1.1"
+     baseProfile="full"
+     width="300" height="200"
+     xmlns="http://www.w3.org/2000/svg">
+  <circle cx="150" cy="100" r="90" fill="red" />
+</svg>
+        <svg version="1.1"
+     baseProfile="full"
+     width="300" height="200"
+     xmlns="http://www.w3.org/2000/svg">
+  <circle cx="150" cy="100" r="90" fill="yellow" />
+</svg> 
+                <svg version="1.1"
+     baseProfile="full"
+     width="300" height="200"
+     xmlns="http://www.w3.org/2000/svg">
+  <circle cx="150" cy="100" r="90" fill="blue" />
+</svg> 
+        <a href="second.html">
+        <img style="height: auto; width: auto\9; width:100%" src="china.jpg"> </a> 
+        <a href="second.html">
+        <img style="height:200px" src="japan.jpg"> </a> 
+        <script>
+            function setup(){
+                canvas = createCanvas(1000,500);
+            }
+            function draw(){
+           
+                for(var i=0; i<10;i++){
+                rect(mouseX + random(-100,100), mouseY, 10, 10); 
+                     }
+            }
+        </script>
+    </body>
+</html>
